@@ -1,0 +1,57 @@
+<div class="bottom" (mousedown)="toggleClass($event)" (click)="toggleClass($event)" (mouseleave)="togglefalse($event)" [class.bottoms]="!status" [class.bottomr]="status" >
+
+<div class="fixed-bottom">
+  <div class="row">
+    <div class="col-12" >
+   <ul class="nav nav-pills" role="tablist">
+    <li class="nav-item col-4">
+      <a class="nav-link active" data-toggle="pill" href="#home">Google</a>
+    </li>
+    <li class="nav-item col-4">
+      <a class="nav-link" data-toggle="pill" href="#menu1">Youtube</a>
+    </li>
+    <li class="nav-item col-4">
+      <a class="nav-link" data-toggle="pill" href="#menu2">Wikipedia</a>
+    </li>
+  </ul>
+  </div>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane fade"><br>
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <youtube></youtube>
+    </div>
+    <div id="menu2" class="container tab-pane active"><br>
+      <wikipedia></wikipedia>
+    </div>
+  </div>
+                <!--<div class="suggestion">
+                  <nav>
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Wikipedia</a>
+                      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Youtube</a>
+                      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Quora</a>
+                    </div>
+                  </nav>
+                  <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                      <wikipedia></wikipedia>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                      <youtube></youtube>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                     <quora></quora>
+                    </div>
+                    
+                  </div>
+                
+                </div>-->
+    </div>
+</div>
+</div>

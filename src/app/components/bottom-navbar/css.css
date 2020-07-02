@@ -1,0 +1,136 @@
+.bottom{
+  position: fixed;
+  background: pink;
+  top: 95%;
+    width: 100vw;
+    height: 100vh;
+}
+.bottoms{
+  animation: up 550ms ease-in-out forwards;
+}
+.bottomr{
+  animation: down 550ms ease-in-out forwards;
+}
+@keyframes up{
+  0%{
+    top: 12%;
+  }
+  100%{
+    top:95%;
+  }
+}
+@keyframes down{
+  0%{
+    top: 95%;
+  }
+  100%{
+    top:12%;
+  }
+}
+.fixed-bottom{
+  position: inherit;
+  top:inherit;
+  left: 15px;
+}
+#arrow{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -5%;
+}
+.arrowsymbol:hover{
+  color: aquamarine;
+}
+.rotatearrowup{
+  animation: rotateup 550ms ease-in-out forwards;
+  
+}
+.rotatearrowdown{
+  animation: rotatedown 550ms ease-in-out forwards;
+  
+}
+@keyframes rotateup{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+@keyframes rotatedown{
+  0%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+.suggestion{
+  width:-webkit-fill-available;
+}
+
+
+
+
+.nav-link{
+  display: block;
+  text-align: center;
+}
+.nav-item{
+  padding: 0;
+}
+.nav-pills > li + li{
+  margin-left: 0px;
+} 
+.col-12{
+  padding: 0;
+  max-width: 100vw;
+}
+
+
+
+/*
+nav > .nav.nav-tabs{
+  left: 0;
+  width:100vw; 
+  border: 5px solid #e74c3c;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: 3px solid #3ce73c;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #3ce73c ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid rgb(76, 32, 158);
+    border-top:5px solid #3c4de7;
+    border-bottom:5px solid #e7973c;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+    background: #e74c3c;
+    color:#fff;
+    border-radius:0;
+    border: 3px solid rgb(248, 246, 246);
+    transition:background 1s linear;
+}*/

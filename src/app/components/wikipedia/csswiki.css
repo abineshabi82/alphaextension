@@ -1,0 +1,18 @@
+.inline{
+  display: flex;
+    justify-content: space-between;
+    padding: 0px 26px;
+}
+@media all and (max-width:470px){
+  .inline{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+  }
+  .btn{
+    display: none;
+  }
+}
+.wikicontainer{
+  width: 95vw;
+}
